@@ -1,0 +1,34 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "strip-x-frame-options-proxy",
+  "version": "1.0.0",
+  "description": "strip X-Frame-Options header for embedding on iframe.",
+  "main": "lib/strip-X-Frame-Options-proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/strip-X-Frame-Options-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/strip-X-Frame-Options-proxy/issues"
+  },
+  "homepage": "https://github.com/azu/strip-X-Frame-Options-proxy",
+  "dependencies": {
+    "connect": "^3.6.2",
+    "express": "^4.15.3",
+    "frameguard": "^3.0.0",
+    "http-proxy-middleware": "^0.17.4"
+  }
+}
